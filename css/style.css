@@ -9,8 +9,6 @@ html {
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
     font-family: 'Markazi Text',
     serif;
     direction: rtl;
@@ -26,34 +24,31 @@ body {
 }
 
 .wrapper--header {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin: 4rem 0 2rem 0;
 } 
 
 .wrapper--header__header {
     font-size: 4rem;
-    text-transform: uppercase;
     font-weight: 500;
     background: -webkit-linear-gradient(0deg, rgb(236, 0, 0), rgba(255, 255, 255, 0.835), rgb(8, 141, 8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .wrapper--search {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper--search__text-field {
     padding: 0.5rem 1.5rem;
-    margin-bottom: 2rem;
-    width: 48rem;
+    width: 43rem;
     height: 5rem;
     font-family: inherit;
     font-weight: 300;
     font-size: 2.5rem;
-    text-transform: uppercase;
     border: 2px solid rgb(8, 141, 8);
     border-radius: 40px;
 }
@@ -69,7 +64,6 @@ body {
 
 .wrapper--result__result {
     margin-bottom: 2rem;
-    border-radius: 3px;
 }
 
 .wrapper--result__state {

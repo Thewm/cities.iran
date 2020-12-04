@@ -37,6 +37,8 @@ const output = (matches) => {
       .join('');
 
     matchList.innerHTML = markup;
+  } else {
+    console.warn("Enter the state!")
   }
 };
 
