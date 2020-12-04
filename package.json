@@ -1,0 +1,19 @@
+{
+  "name": "cities.iran",
+  "version": "1.0.0",
+  "description": "City finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thewm/cities.iran.git"
+  },
+  "author": "Thewm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thewm/cities.iran/issues"
+  },
+  "homepage": "https://github.com/Thewm/cities.iran#readme"
+}
