@@ -4,6 +4,7 @@ const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
 
 // search through iran.json and fetch data
+
 const searchStates = async (searchText) => {
   const response = await fetch('../data/iran.json');
   const states = await response.json();
@@ -38,8 +39,19 @@ const output = (matches) => {
 
     matchList.innerHTML = markup;
   } else {
-    console.warn("Enter the state!")
+    console.warn('Enter the state!');
   }
 };
 
 search.addEventListener('input', () => searchStates(search.value));
+
+
+
+// Copyright in console :)
+const copyright = {
+  author_of_iran_json: 'Tohid Arastu',
+  data: 'iran.json file in his github',
+  link: 'https://github.com/arastu',
+};
+
+console.table(copyright);
