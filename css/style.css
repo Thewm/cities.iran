@@ -38,8 +38,7 @@ body {
 }
 
 .wrapper--search {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .wrapper--search__text-field {
