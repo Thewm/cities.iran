@@ -8,5 +8,5 @@
 ----------------------
 
 ```diff
-Note: I got data with fetching from json file, to see result of your search you must run app in local server
+- Note: I got data with fetching from json file, to see result of your search you must run app in local server
 ```
