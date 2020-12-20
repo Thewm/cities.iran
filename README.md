@@ -1,4 +1,4 @@
-<h1 align="center">Webapp for find all of cities for specific state </h1>
+<h1 align="center">A webapp for find all of cities for specific county </h1>
 <br/>
 
 ![Iran's flag](https://cdn.webshopapp.com/shops/94414/files/52385266/flag-of-iran.jpg)
